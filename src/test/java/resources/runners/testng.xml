@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="Technical Test">
+        <parameter name="firstName" value="Max"></parameter>
+        <parameter name="lastName" value="Murphy"></parameter>
+        <parameter name="question" value="Favorite school subject"></parameter>
+        <parameter name="answer" value="Sports"></parameter>
+        <parameter name="expectedMessage" value="Your submission has been received!"></parameter>
+        <classes>
+            <class name="com.form.jotform.testsuite.TestSuite"></class>
+        </classes>
+    </test>
+</suite>
